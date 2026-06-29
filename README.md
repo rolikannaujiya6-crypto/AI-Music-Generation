@@ -1,18 +1,30 @@
-# AI Music Generation using LSTM
+# AI Music Generation
 
-Tools:
+## Project Overview
+This project generates music using Artificial Intelligence by processing MIDI files and extracting note sequences.
+
+## Features
+- Reads MIDI files
+- Extracts note sequences
+- Uses Python and PrettyMIDI
+- AI-based music generation
+
+## Technologies Used
 - Python
-- TensorFlow/Keras
 - PrettyMIDI
-- NumPy
+- Google Colab
+- GitHub
 
-Output:
-- AI generated MIDI music file
+## Project Structure
+AI-Music-Generation/
+├── dataset/
+├── music_generation.py
+├── README.md
 
-Workflow:
-1. MIDI data collection
-2. Note extraction
-3. Sequence creation
-4. LSTM model training
-5. Music generation
-6. MIDI file creation
+## How to Run
+1. Install PrettyMIDI
+2. Add MIDI dataset
+3. Run music_generation.py
+
+## Author
+Roli Kumari
